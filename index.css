@@ -1,5 +1,6 @@
 
 body{
+    margin: 0;
     width: 100vw;
     height: 100vh;
     background-image: url("static/img/bgi_city.jpg");
@@ -7,3 +8,18 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+
+#chuck{
+    width: 30vw;
+    height: 70vh;
+}
+.chuckBox{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
