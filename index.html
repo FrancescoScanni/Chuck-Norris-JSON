@@ -4,12 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Chuck Norris</title>
 </head>
 <body>
+    <div id="header">
+        <img id="logo" src="static/img/logo.png" alt="">
+        <h1 id="title">CHUCK NORRIS JOKES</h1>
+        <img id="logo" src="static/img/logo.png" alt="">
+    </div>  
 
-    <div class="chuckBox"><img id="chuck" src="static\img\chuuckNr.png" alt="Chuck"></div>
-    
+
+    <form id="campo_input">
+        <div class="dropdown">
+            <select id="menu">
+                            <option value="none">Nessuno</option>
+                            <option value="animal">Animali</option>
+                            <option value="career">Carriera</option>
+                            <option value="dev">Standard</option>
+                            <option value="celebrtity">Celebrità</option>
+                            <option value="explicit">Esplicito</option>
+                            <option value="fashion">Moda</option>
+                            <option value="food">Cibo</option>
+                            <option value="history">Storia</option>
+                            <option value="money">Soldi</option>
+                            <option value="movie">Film</option>
+                            <option value="music">Musica</option>
+                            <option value="political">Politica</option>
+                            <option value="religion">Religione</option>
+                            <option value="science">Scienza</option>
+                            <option value="sport">Sport</option>
+                            <option value="travel">Viaggio</option>
+            </select>
+        </div>
+        <input type="submit" value="GENERA">
+    </form>
+
+    <div id="boxBattuta">
+        <img id="vignetta" src="static/img/text.png" alt="">
+        <h1 id="battuta"></h1>
+    </div>
+    <div id="chuckBox">
+        <img id="chuck" src="static\img\chuuckNr.png" alt="Chuck">
+    </div>
 
     <script src="static/js/script.js"></script>
 </body>
