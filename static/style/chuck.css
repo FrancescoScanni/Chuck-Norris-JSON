@@ -1,16 +1,19 @@
 
-/*Stile figura di chuck*/
-
-#chuck{
-    width: 30vw;
-    height: 70vh;
-}
-.chuckBox{
-    margin: 0;
+#chuckBox{
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: end;
+}
+#chuck{
+    position: absolute;
+    width: 30vw;
+    height: 60vh;
 }
 
+#bChuck{
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+}

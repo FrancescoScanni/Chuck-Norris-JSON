@@ -8,7 +8,7 @@ window.addEventListener("load",function(){
     input.addEventListener("submit",function(e){
         e.preventDefault()
         categoria=document.querySelector("#menu").value
-        if(categoria!="none"){
+        if(categoria!="none"&&categoria!="all"){
             let response=fetch(`https://api.chucknorris.io/jokes/random?category=${categoria}`)
             .then(
                 function(res){

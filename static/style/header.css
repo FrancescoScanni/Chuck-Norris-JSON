@@ -1,0 +1,23 @@
+
+
+#title{
+    font-size: 220%;
+    
+}
+#logo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 10vh;
+    padding-left: 10px;
+}
+#header{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    font-size: 190%;
+    font-family: 'Bangers', sans-serif;
+    color: antiquewhite;
+}
