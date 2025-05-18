@@ -2,14 +2,16 @@
 #boxBattuta {
     position: relative;
     display: inline-block; 
+    display: flex;
+    justify-content: center;
 }
 #vignetta {
+    position: relative;
     display: block;
     margin-top: 5vh;
-
     transform: rotateY(180deg);
     width: 30vw;
-    height: 25vw;
+    height: 22vw;
 }
 #battuta {
     position: absolute;
@@ -17,8 +19,8 @@
     left: 50%;
     transform: translate(-50%, -50%); 
     color: black;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 17px;
     text-align: center;
-    width: 80%;
+    width: 25vw;
+    font-family: 'Bangers', sans-serif;
 }

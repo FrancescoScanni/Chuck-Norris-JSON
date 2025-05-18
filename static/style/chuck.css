@@ -8,12 +8,38 @@
 }
 #chuck{
     position: absolute;
-    width: 30vw;
+    width: 27vw;
     height: 60vh;
+    margin-right: 10vh;
 }
 
-#bChuck{
+#occhiolino{
     position: absolute;
-    width: 10vw;
-    height: 10vh;
+    display: flex;
+}
+#blink{
+    margin-top: 50.25vh;
+    width: 30vw;
+    height: 40;
+    
+}
+.bang{
+    position: absolute;
+    margin-top: 20vh;
+    visibility: hidden;
+}
+#bang1{
+    z-index: 100;
+    margin-top: 23vh;
+    margin-left: 43vw;
+}
+#bang2{
+    margin-left: 88vw;
+    z-index: 100;
+}
+.visibile{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
 }

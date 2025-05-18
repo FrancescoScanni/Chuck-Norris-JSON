@@ -2,7 +2,7 @@
 
 #title{
     font-size: 220%;
-    
+    -webkit-text-stroke: 1px black;
 }
 #logo{
     position: relative;
@@ -14,8 +14,11 @@
     padding-left: 10px;
 }
 #header{
+
+    width: 100vw;
     margin-top: 5vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 190%;
     font-family: 'Bangers', sans-serif;

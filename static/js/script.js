@@ -3,8 +3,11 @@
 
 let input=document.querySelector("form")
 let joke=document.querySelector("#battuta")
+let bang=document.querySelectorAll(".bang")
+let suono = document.getElementById("suono");
 
 window.addEventListener("load",function(){
+    
     input.addEventListener("submit",function(e){
         e.preventDefault()
         categoria=document.querySelector("#menu").value
@@ -18,6 +21,15 @@ window.addEventListener("load",function(){
                 function(obj){
                     console.log(obj.value)
                     joke.innerHTML=obj.value
+                    for (let i = 0; i < bang.length; i++) {
+                        bang[i].classList.add("visibile");
+                    }
+                    suono.play()
+                    setTimeout(function() {
+                        for (let i = 0; i < bang.length; i++) {
+                            bang[i].classList.remove("visibile");
+                        }
+                    }, 300);  
                     return obj
                 }
             ).catch(
@@ -29,3 +41,4 @@ window.addEventListener("load",function(){
         console.log(categoria)
         })
 })
+

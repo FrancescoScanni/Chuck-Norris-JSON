@@ -11,7 +11,7 @@
     margin-bottom: 1.5vh;
 }
 #menu {
-    color: #f2f2f2;
+    color: black;
     font-size: 130%;
     padding: 15px;
     width: 10vw;
@@ -22,10 +22,10 @@
 }
 #menu:hover {
     border-color: #ff8c00; 
-    
     background: linear-gradient(45deg, #444, #222);
     box-shadow: 0 0 15px rgb(255, 123, 0); 
-    transform: scale(1.1) rotate(5deg);
+    transform:  rotate(5deg);
+    color: white;
 }
 input[type="submit"] {
     padding: 7px 10px;
@@ -35,6 +35,10 @@ input[type="submit"] {
     border-radius: 8px;
     box-shadow: 0 8px 30px rgba(111, 0, 255, 0.8);
     transition: all 0.4s ease;
+    height: 7vh;
+    width: 6vw;
+    margin-top: 2vh;
+    font-size: 130%;
 }
 input[type="submit"]:hover {
     background-color: rgb(135, 192, 3);

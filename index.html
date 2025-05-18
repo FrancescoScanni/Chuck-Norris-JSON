@@ -13,17 +13,22 @@
     <title>Chuck Norris</title>
 </head>
 <body>
+    <audio id="suono" src="static\sparo.mp3" preload="auto"></audio>
+    <div id="occhiolino">
+        <img id="blink"src="static\img\blinkingChuck.png">
+    </div>
+    
+
     <div id="header">
         <img id="logo" src="static/img/logo.png" alt="">
         <h1 id="title">CHUCK NORRIS JOKES</h1>
         <img id="logo" src="static/img/logo.png" alt="">
     </div>  
 
-
     <form id="campo_input">
         <div class="dropdown">
             <select id="menu">
-                            <option value="none">Nessuno</option>
+                            <option value="none">None</option>
                             <option value="animal">Animali</option>
                             <option value="career">Carriera</option>
                             <option value="dev">Sviluppatori</option>
@@ -42,15 +47,17 @@
                             <option value="travel">Viaggio</option>
             </select>
         </div>
-        <input type="submit" value="GENERA">
+        <input type="submit" value="GENERATE">
     </form>
+
 
     <div id="boxBattuta">
         <img id="vignetta" src="static/img/text.png" alt="">
         <h1 id="battuta"></h1>
+        <img class="bang" id="bang1"src="static\img\bang.png">
+        <img class="bang" id="bang2" src="static\img\bang.png" alt="">
     </div>
     <div id="chuckBox">
-        <img id="bChuck" src="static\img\blinkingChuck.png" alt="Chuck che fa l'occhiolino">
         <img id="chuck" src="static\img\chuuckNr.png" alt="Chuck">
     </div>
 
